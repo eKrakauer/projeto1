@@ -1,0 +1,6 @@
+[submodule "nasm"]
+	path = nasm
+	url = http://repo.or.cz/nasm.git
+[submodule "ffmpeg"]
+	path = ffmpeg
+	url = https://github.com/FFmpeg/FFmpeg
