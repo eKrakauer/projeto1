@@ -5,7 +5,7 @@ run:
 
 build:
 	(cd nasm; \
-	./autogen.sh; \
+	cp ../config.h.in ../configure .; \
 	./configure; \
 	make)
 	(export PATH=$$PWD/nasm:$$PATH; \
